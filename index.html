@@ -1,0 +1,877 @@
+<!--  
+* Route - Frontend
+* Bootstrap Exam 
+* Bootstrap Portfolio 
+* Bootstrap + HTML + CSS
+* 10/01/2023
+* Mostafa Badr >> LinkedIn: https://www.linkedin.com/in/mostafa-badr-610b64208
+* Mostafa Badr >> GitHub: https://github.com/MostafaBadr7 
+-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mostafa Badr</title>
+    <link rel="icon" type="image/x-icon" href="./imgs/Mlogo.jpg">
+    <!--------------------------- font awesome --------------------------------->
+    <link rel="stylesheet" href="./css-Bootstrap-Fontawesome/all.min.css" />
+    <!----------------------------- Bootstrap ---------------------------------->
+    <link
+      rel="stylesheet"
+      href="./css-Bootstrap-Fontawesome/bootstrap.min.css"
+    />
+    <!-- One External stylesheet includes import function of others css files -->
+    <link rel="stylesheet" href="./CSS/index.css" />
+    <link rel="stylesheet" href="./CSS/media.css" />
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#navId" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+    <nav
+      class="navbar navbar-expand-lg position-fixed w-100 " 
+    >
+      <div class="container-fluid pt-4 px-4 mx-4">
+        <a class="navbar-brand text-white fw-bold fs-5 ms-5" href="#"
+          >Mostafa Badr
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul
+            class="navbar-nav ms-auto me-5 pe-5 w-100 d-flex justify-content-end" id="navId"
+          >
+            <li class="nav-item">
+              <a
+                class="nav-link  text-white  ps-4"
+                href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white ps-4" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white ps-4" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white ps-4" href="#works">Works</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white ps-4" href="#clients">Clients</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white ps-4" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white ps-4" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header
+      class="vh-100 d-flex justify-content-center align-items-center flex-column" id="home"
+    >
+      <div class="header-h text-white text-center">
+        <h5 class="m-0 p-3 fs-1 fw-bolder Hello">Hello</h5>
+        <div
+          class="m-0 p-3 fw-bold frame d-flex justify-content-center align-items-center text-nowrap"
+        >
+          <span class="IAm-span fw-lighter d-inline me-2 fs-1 fw-light"
+            >I Am
+          </span>
+          <div class="animation-title text-start fs-1 fw-medium"></div>
+          <span class="vertical-header-line-span fs-1 fw-light ps-1">|</span>
+        </div>
+      </div>
+      <div>
+          <div class="icons d-flex p-3 text-white">
+            <div
+            class="social-icons-header mx-1 bg-black p-2 d-inline-block rounded-circle border-light d-flex justify-content-center align-items-center"
+          >
+          <a class="team-icon-link text-white text-decoration-none" target="_blank" href="https://www.linkedin.com/in/mostafa-badr-610b64208/">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+            </div>
+            <div
+              class="social-icons-header mx-1 bg-black p-2 d-inline-block rounded-circle border-light d-flex justify-content-center align-items-center"
+            >
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+            <div
+              class="social-icons-header mx-1 bg-black p-2 d-inline-block rounded-circle border-light d-flex justify-content-center align-items-center"
+            >
+              <i class="fa-brands fa-twitch"></i>
+            </div>
+            <div
+            class="social-icons-header mx-1 bg-black p-2 d-inline-block rounded-circle border-light d-flex justify-content-center align-items-center"
+          >
+            <i class="fa-brands fa-facebook-f"></i>
+            </div>
+          
+            <div
+            class="social-icons-header mx-1 bg-black p-2 d-inline-block rounded-circle border-light d-flex justify-content-center align-items-center"
+          >
+          <a class="team-icon-link text-white text-decoration-none"  href="">
+            <i class="fa-brands fa-pinterest-p"></i>
+          </a>
+            </div>
+          </div>
+      </div>
+    </header>
+    <!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< About me >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+    <section id="about" class="white-bkgrnd py-5">
+      <main class="container my-5">
+        <div class="row g-4">
+          <div class="col-lg-5 col-md-12">
+            <div class="about-img-div position-relative w-100 ">
+              <img
+                class="position-relative w-100 z-3"
+                src="./imgs/M.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-lg-7 col-md-12">
+            <h2 class="fw-bold">About Me<span class="fs-1">.</span></h2>
+            <p class="text-muted title-about mb-4">
+              UI / UX DESIGNER & WEB DEVELOPER
+            </p>
+            <p class="mb-4 text-secondary">
+              I am <span class="fw-bold">Mostafa Badr</span> Lorem Ipsum is
+              simply dummy text of the printing and typesetting industry. Lorem
+              Ipsum has been the industry's standard dummy text ever It has
+              survived not only five centuries, but also the leap into
+              electronic but also the leap into electronic typesetting,
+              remaining essentially unchanged. It was popularised in the 1960s
+              with the release of Letraset sheets containing
+            </p>
+            <div class="d-flex flex-column justify-content-between">
+              <div
+                class="progress mb-4"
+                role="progressbar"
+                aria-label="Example with label"
+                aria-valuenow="95"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div
+                  class="progress-bar bg-dark d-flex justify-content-between align-items-center flex-row"
+                  style="width: 95%"
+                >
+                  <div class="ps-2 progress-label">web Design</div>
+                  <div class="pe-2">95%</div>
+                </div>
+              </div>
+              <div
+                class="progress mb-4"
+                role="progressbar"
+                aria-label="Example with label"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div
+                  class="progress-bar bg-dark d-flex justify-content-between align-items-center flex-row"
+                  style="width: 80%"
+                >
+                  <div class="ps-2 progress-label">Branding</div>
+                  <div class="pe-2">80%</div>
+                </div>
+              </div>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Example with label"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div
+                  class="progress-bar bg-dark d-flex justify-content-between align-items-center flex-row"
+                  style="width: 90%"
+                >
+                  <div class="ps-2 progress-label">Development</div>
+                  <div class="pe-2">90%</div>
+                </div>
+              </div>
+            </div>
+            <div class="mt-5 about-btns-div">
+              <button class="p-2 px-4 btn-download">
+                <a
+                  class="text-decoration-none link-download"
+                  href="./files/Mostafa Mohamed AbdElmegeed Badr.pdf"
+                  download="Mostafa Mohamed AbdElmegeed Badr"
+                  >Download cv</a
+                >
+              </button>
+              <button class="p-2 px-4 btn-contact"><a class="text-decoration-none link-contact-about" href="#contact">Contact Me</a> </button>
+            </div>
+          </div>
+        </div>
+      </main>
+    </section>
+    <!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Services >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+    <section id="services" class="grey-bkgrnd pb-0">
+      <main class="main-bkgrnd-color">
+        <div class="container">
+          <div class="text-center pt-5 d-flex flex-column align-items-center">
+            <h2 class="fw-bold  ">Services<span class="fs-1">.</span></h2>
+            <div class="services-line  mb-5"></div>
+          </div>
+          <!------------------------------ cards ---------------------------- -->
+          <div
+            class="d-flex flex-wrap justify-content-between w-100 flex-lg-row flex-md-column"
+          >
+            <figure
+              class="service-card pt-5 pb-4 container-bkgrnd mb-4 text-center shadow d-flex flex-column align-items-center"
+            >
+              <div
+                class="service-outer-line mb-4 rounded-circle d-flex align-items-center justify-content-center"
+              >
+                <div
+                  class="service-card-img-top container-bkgrnd text-center rounded-circle d-flex align-items-center justify-content-center"
+                >
+                  <i class="service-icons fa-solid fa-laptop fs-3 fa-fw"></i>
+                </div>
+              </div>
+              <h5 class="fw-bold">Web Design</h4>
+              <figcaption class="card-body">
+                <p class="card-text p-2">
+                  Lorem Ipsum is simply dummy text of the Lorem Ipsum has been
+                  the industry's standard dummy text ever
+                </p>
+              </figcaption>
+            </figure>
+            <figure
+              class="service-card pt-5 pb-4 mb-4 text-center shadow d-flex flex-column align-items-center container-bkgrnd"
+            >
+              <div
+                class="service-outer-line mb-4 rounded-circle d-flex align-items-center justify-content-center"
+              >
+                <div
+                  class="service-card-img-top container-bkgrnd bg-white text-center rounded-circle d-flex align-items-center justify-content-center"
+                >
+                  <i class="service-icons fa-solid fa-bullhorn fs-3 fa-fw"></i>
+                </div>
+              </div>
+              <h5 class="fw-bold">Branding</h4>
+              <figcaption class="card-body p-2">
+                <p class="card-text">
+                  Lorem Ipsum is simply dummy text of the Lorem Ipsum has been
+                  the industry's standard dummy text ever
+                </p>
+              </figcaption>
+            </figure>
+            <figure
+              class="service-card pt-5 pb-4 mb-4 text-center shadow d-flex flex-column align-items-center container-bkgrnd"
+            >
+              <div
+                class="service-outer-line mb-4 rounded-circle d-flex align-items-center justify-content-center"
+              >
+                <div
+                  class="service-card-img-top container-bkgrnd text-center rounded-circle d-flex align-items-center justify-content-center"
+                >
+                  <i class="service-icons fa-solid fa-umbrella fs-3 fa-fw"></i>
+                </div>
+              </div>
+              <h5 class="fw-bold">Development</h5>
+              <figcaption class="card-body">
+                <p class="card-text p-2">
+                  Lorem Ipsum is simply dummy text of the Lorem Ipsum has been
+                  the industry's standard dummy text ever
+                </p>
+              </figcaption>
+            </figure>
+            <figure
+              class="service-card pt-5 pb-4 mb-4 text-center shadow d-flex flex-column align-items-center container-bkgrnd"
+            >
+              <div
+                class="service-outer-line mb-4 rounded-circle d-flex align-items-center justify-content-center"
+              >
+                <div
+                  class="service-card-img-top bg-white text-center rounded-circle d-flex align-items-center justify-content-center"
+                >
+                  <i class="service-icons fa-regular fa-gem fs-3 fa-fw"></i>
+                </div>
+              </div>
+              <h5 class="fw-bold">Creative Design</h5>
+              <figcaption class="card-body">
+                <p class="card-text p-2">
+                  Lorem Ipsum is simply dummy text of the Lorem Ipsum has been
+                  the industry's standard dummy text ever
+                </p>
+              </figcaption>
+            </figure>
+            <figure
+              class="service-card pt-5 mb-4 text-center shadow d-flex flex-column align-items-center container-bkgrnd"
+            >
+              <div
+                class="service-outer-line mb-4 rounded-circle d-flex align-items-center justify-content-center"
+              >
+                <div
+                  class="service-card-img-top bg-white text-center rounded-circle d-flex align-items-center justify-content-center"
+                >
+                  <i
+                    class="service-icons fa-solid fa-television fs-3 fw-lighter fa-fw"
+                  ></i>
+                </div>
+              </div>
+              <h5 class="fw-bold">Fully Responsive</h5>
+              <figcaption class="card-body">
+                <p class="card-text p-2">
+                  Lorem Ipsum is simply dummy text of the Lorem Ipsum has been
+                  the industry's standard dummy text ever
+                </p>
+              </figcaption>
+            </figure>
+            <figure
+              class="service-card pt-5 pb-4 mb-4 text-center shadow d-flex flex-column align-items-center container-bkgrnd"
+            >
+              <div
+                class="service-outer-line mb-4 rounded-circle d-flex align-items-center justify-content-center"
+              >
+                <div
+                  class="service-card-img-top bg-white text-center rounded-circle d-flex align-items-center justify-content-center"
+                >
+                  <i class="service-icons fa-solid fa-camera fs-3 fa-fw"></i>
+                </div>
+              </div>
+              <h5 class="fw-bold">Retina Ready</h5>
+              <figcaption class="card-body">
+                <p class="card-text p-2">
+                  Lorem Ipsum is simply dummy text of the Lorem Ipsum has been
+                  the industry's standard dummy text ever
+                </p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </main>
+    </section>
+    <!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Portfolio >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+    <section id="works" class="white-bkgrnd pb-5">
+      <main class="main-bkgrnd-color">
+        <div class="container">
+          <div class="text-center pt-5 d-flex flex-column align-items-center">
+            <h2 class="fw-bold  ">Portfolio<span class="fs-1">.</span></h2>
+            <div class="services-line  mb-5"></div>
+          </div>
+          <div class="d-flex flex-column align-items-center justify-content-center ">
+          <ul class="nav nav-underline" id="myTab" role="tablist">
+            <li class="nav-item-small" role="presentation">
+              <button class="nav-link active text-dark fw-bold" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">All</button>
+            </li>
+            <li class="nav-item-small" role="presentation">
+              <button class="nav-link text-dark fw-bold" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Brand</button>
+            </li>
+            <li class="nav-item-small" role="presentation">
+              <button class="nav-link text-dark fw-bold" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Design</button>
+            </li>
+            <li class="nav-item-small" role="presentation">
+              <button class="nav-link fw-bold" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#add-tab-pane" type="button" role="tab" aria-controls="add-tab-pane" aria-selected="false" >Graphic</button>
+            </li>
+          </ul>
+          <div class="tab-content mt-5 w-100" id="myTabContent">
+            <div class="tab-pane tab-pane-1  fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+              <div class="portfolio-1st-pane fade show row g-5">
+                <div class="portfolio-item  col-lg-4  col-md-6 col-sm-12 position-relative ">
+                  <img class="w-100" src="./imgs/portfolio/1.jpg" alt="">
+                  <div class="portfoli-div-descp position-absolute">
+                  <p class="desc-p text-nowrap">Web Designer</p>
+                  <div class="desc-icon d-flex">
+                    <i class="portfolio-icon fa fa-chain-broken p-2 text-white  bg-dark  me-2" aria-hidden="true"></i>
+                    <i class="portfolio-icon fa fa-search-plus p-2 text-white  bg-dark  " aria-hidden="true"></i>
+                  </div>
+                </div>
+                </div>
+                <div class="portfolio-item   col-lg-4 col-md-6 col-sm-12  position-relative">
+                  <img class="w-100" src="./imgs/portfolio/2.jpg" alt="">
+                  <div class="portfoli-div-descp position-absolute">
+                  <p class="desc-p text-nowrap">Web Designer</p>
+                  <div class="desc-icon d-flex">
+                    <i class="portfolio-icon fa fa-chain-broken p-2 text-white  bg-dark me-2" aria-hidden="true"></i>
+                    <i class="portfolio-icon fa fa-search-plus p-2 text-white  bg-dark " aria-hidden="true"></i>
+                  </div>
+                </div>
+                </div>
+                <div class="portfolio-item  col-lg-4 col-md-6 col-sm-12  position-relative">
+                  <img class="w-100" src="./imgs/portfolio/3.jpg" alt="">
+                  <div class="portfoli-div-descp position-absolute">
+                  <p class="desc-p text-nowrap">Web Designer</p>
+                  <div class="desc-icon d-flex">
+                    <i class="portfolio-icon fa fa-chain-broken p-2 text-white  bg-dark  me-2" aria-hidden="true"></i>
+                    <i class="portfolio-icon fa fa-search-plus p-2 text-white  bg-dark " aria-hidden="true"></i>
+                  </div>
+                </div>
+                </div>
+                <div class="portfolio-item   col-lg-4 col-md-6 col-sm-12  position-relative">
+                  <img class="w-100" src="./imgs/portfolio/4.jpg" alt="">
+                  <div class="portfoli-div-descp position-absolute">
+                  <p class="desc-p text-nowrap">Web Designer</p>
+                  <div class="desc-icon d-flex">
+                    <i class="portfolio-icon fa fa-chain-broken p-2 text-white  bg-dark  me-2" aria-hidden="true"></i>
+                    <i class="portfolio-icon fa fa-search-plus p-2 text-white  bg-dark " aria-hidden="true"></i>
+                  </div>
+                </div>
+                </div>
+                <div class="portfolio-item   col-lg-4 col-md-6 col-sm-12  position-relative">
+                  <img class="w-100" src="./imgs/portfolio/5.jpg" alt="">
+                  <div class="portfoli-div-descp position-absolute">
+                  <p class="desc-p text-nowrap">Web Designer</p>
+                  <div class="desc-icon d-flex">
+                    <i class="portfolio-icon fa fa-chain-broken p-2 text-white  bg-dark me-2" aria-hidden="true"></i>
+                    <i class="portfolio-icon fa fa-search-plus p-2 text-white  bg-dark " aria-hidden="true"></i>
+                  </div>
+                </div>
+                </div>
+                <div class="portfolio-item   col-lg-4 col-md-6 col-sm-12  position-relative">
+                  <img class="w-100" src="./imgs/portfolio/6.jpg" alt="">
+                  <div class="portfoli-div-descp position-absolute">
+                  <p class="desc-p text-nowrap">Web Designer</p>
+                  <div class="desc-icon d-flex">
+                    <i class="portfolio-icon fa fa-chain-broken p-2 text-white  bg-dark me-2" aria-hidden="true"></i>
+                    <i class="portfolio-icon fa fa-search-plus p-2 text-white  bg-dark " aria-hidden="true"></i>
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade show " id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0"><div class="tab-pane tab-pane-1  fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+              <div class="portfolio-1st-pane fade show row g-5">
+              
+                <div class="portfolio-item fade show col-lg-4  col-md-6 position-relative">
+                  <img class="w-100" src="./imgs/portfolio/4.jpg" alt="">
+                  <div class="portfoli-div-descp position-absolute">
+                  <p class="desc-p text-nowrap">Web Designer</p>
+                  <div class="desc-icon d-flex">
+                    <i class="fa fa-chain-broken p-2 text-white  bg-dark portfolio-icon me-2" aria-hidden="true"></i>
+                    <i class="fa fa-search-plus p-2 text-white  bg-dark portfolio-icon " aria-hidden="true"></i>
+                  </div>
+                </div>
+                </div>
+                <div class="portfolio-item fade show col-lg-4  col-md-6 position-relative">
+                  <img class="w-100" src="./imgs/portfolio/6.jpg" alt="">
+                  <div class="portfoli-div-descp position-absolute">
+                  <p class="desc-p text-nowrap">Web Designer</p>
+                  <div class="desc-icon d-flex">
+                    <i class="fa fa-chain-broken p-2 text-white  bg-dark portfolio-icon me-2" aria-hidden="true"></i>
+                    <i class="fa fa-search-plus p-2 text-white  bg-dark portfolio-icon " aria-hidden="true"></i>
+                  </div>
+                </div>
+                </div>
+              </div></div></div>
+            <div class="tab-pane fade show   " id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+              <div class="portfolio-1st-pane fade show row g-5">
+                <div class="portfolio-item   col-lg-4 col-md-6 col-sm-12  position-relative">
+                  <img class="w-100" src="./imgs/portfolio/2.jpg" alt="">
+                  <div class="portfoli-div-descp position-absolute">
+                  <p class="desc-p text-nowrap">Web Designer</p>
+                  <div class="desc-icon d-flex">
+                    <i class="portfolio-icon fa fa-chain-broken p-2 text-white  bg-dark me-2" aria-hidden="true"></i>
+                    <i class="portfolio-icon fa fa-search-plus p-2 text-white  bg-dark " aria-hidden="true"></i>
+                  </div>
+                </div>
+                </div>
+                <div class="portfolio-item   col-lg-4 col-md-6 col-sm-12  position-relative">
+                  <img class="w-100" src="./imgs/portfolio/5.jpg" alt="">
+                  <div class="portfoli-div-descp position-absolute">
+                  <p class="desc-p text-nowrap">Web Designer</p>
+                  <div class="desc-icon d-flex">
+                    <i class="portfolio-icon fa fa-chain-broken p-2 text-white  bg-dark me-2" aria-hidden="true"></i>
+                    <i class="portfolio-icon fa fa-search-plus p-2 text-white  bg-dark " aria-hidden="true"></i>
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade show   " id="add-tab-pane" role="tabpanel" aria-labelledby="add-tab" tabindex="0">
+              <div class="portfolio-1st-pane fade show row g-5">
+                <div class="portfolio-item   col-lg-4 col-md-6 col-sm-12  position-relative">
+                  <img class="w-100" src="./imgs/portfolio/1.jpg" alt="">
+                  <div class="portfoli-div-descp position-absolute">
+                  <p class="desc-p text-nowrap">Web Designer</p>
+                  <div class="desc-icon d-flex">
+                    <i class="portfolio-icon fa fa-chain-broken p-2 text-white  bg-dark me-2" aria-hidden="true"></i>
+                    <i class="portfolio-icon fa fa-search-plus p-2 text-white  bg-dark " aria-hidden="true"></i>
+                  </div>
+                </div>
+                </div>
+                <div class="portfolio-item   col-lg-4 col-md-6 col-sm-12  position-relative">
+                  <img class="w-100" src="./imgs/portfolio/3.jpg" alt="">
+                  <div class="portfoli-div-descp position-absolute">
+                  <p class="desc-p text-nowrap">Web Designer</p>
+                  <div class="desc-icon d-flex">
+                    <i class="portfolio-icon fa fa-chain-broken p-2 text-white  bg-dark me-2" aria-hidden="true"></i>
+                    <i class="portfolio-icon fa fa-search-plus p-2 text-white  bg-dark " aria-hidden="true"></i>
+                  </div>
+                </div>
+                </div>
+                <div class="portfolio-item   col-lg-4 col-md-6 col-sm-12  position-relative">
+                  <img class="w-100" src="./imgs/portfolio/5.jpg" alt="">
+                  <div class="portfoli-div-descp position-absolute">
+                  <p class="desc-p text-nowrap">Web Designer</p>
+                  <div class="desc-icon d-flex">
+                    <i class="portfolio-icon fa fa-chain-broken p-2 text-white  bg-dark me-2" aria-hidden="true"></i>
+                    <i class="portfolio-icon fa fa-search-plus p-2 text-white  bg-dark " aria-hidden="true"></i>
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>           
+        </main>
+      </section>
+    <!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Testimonials >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+    <section  id="clients" class="slider grey-bkgrnd py-5">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide w-75 mx-auto text-center py-3"
+      >
+        <div
+          class="carousel-indicators p-3 position-absolute align-items-end pb-5"
+        >
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active rounded-circle me-2"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            class="rounded-circle me-2"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            class="rounded-circle"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2 class="pb-5 pt-4 mb-4 fs-1 fw-bold">Testimonials.</h2>
+            <img
+              src="/Assigns/Bootstrap exam/imgs/1_New1.jpg"
+              class="d-inline rounded-circle"
+              alt="..."
+            />
+            <div class="pt-3">
+              <p class="lead text-muted fs-6">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Reiciendis eveniet iure provident magni nihil nisi pariatur
+                accusamus animi, vel architecto..
+              </p>
+
+              <h5 class="text-bolder fs-6">Alix Smith</h5>
+              <h5 class="text-muted fs-6">Envato Customer</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <h2 class="pb-5 pt-4 mb-4 fs-1 fw-bold">Testimonials.</h2>
+            <img
+              src="/Assigns/Bootstrap exam/imgs/1_New1.jpg"
+              class="d-inline rounded-circle"
+              alt="..."
+            />
+            <div class="pt-3">
+              <p class="lead text-muted fs-6">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Reiciendis eveniet iure provident magni nihil nisi pariatur
+                accusamus animi, vel architecto..
+              </p>
+
+              <h5 class="text-bolder fs-6">Alix Smith</h5>
+              <h5 class="text-muted fs-6">Envato Customer</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <h2 class="pb-5 pt-4 mb-4 fs-1 fw-bold">Testimonials.</h2>
+            <img
+              src="/Assigns/Bootstrap exam/imgs/1_New1.jpg"
+              class="d-inline rounded-circle"
+              alt="..."
+            />
+            <div class="pt-3">
+              <p class="lead text-muted fs-6">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Reiciendis eveniet iure provident magni nihil nisi pariatur
+                accusamus animi, vel architecto..
+              </p>
+
+              <h5 class="text-bolder fs-6">Alix Smith</h5>
+              <h5 class="text-muted fs-6">Envato Customer</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< statistics >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+    <section id="" class="statistics  white-bkgrnd w-100 pt-5 mt-5">
+          <main class="statistics-main container d-flex align-items-center justify-content-between px-5 flex-md-row flex-sm-column">
+          <figure class="feature feature1">
+              <i class="fa-solid fa-users fs-3  mb-1"></i>
+              <figcaption class="fs-1" ></figcaption>
+              <p class="fw-medium">Happy Customers</p>
+          </figure>
+          <figure class="feature feature2">
+              <i class="fa fa-thumbs-up fs-3  mb-1"></i>
+              <figcaption class="fs-1"></figcaption>
+              <p class="fw-medium">Complete Projects</p>
+          </figure>
+          <figure class="feature feature3">
+              <i class="fa fa-bullhorn fs-3  mb-1"></i>
+              <figcaption class="fs-1"></figcaption>
+              <p class="fw-medium">Lines Of Code</p>
+          </figure>
+          <figure class="feature feature4">
+              <i class="fa fa-cloud-download fs-3 mb-1"></i>
+              <figcaption class="fs-1"></figcaption>
+              <p class="fw-medium">Files Downloaded</p>
+          </figure>
+          </main>
+    </section>
+    <!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Our Team >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+    <section id="team" class="grey-bkgrnd pb-0">
+      <main class="main-bkgrnd-color container ">
+        <div class="container ">
+          <div class="text-center pt-5 d-flex flex-column align-items-center">
+            <h1 class="fw-bolder  ">Our Team<span class="fs-1">.</span></h1>
+            <div class="services-line  mb-5"></div>
+          </div>
+        <div class="row g-4 ">
+          <div class="col-lg-4 col-sm-12">
+            <div class="member-main-div  bg-secondary   p-0 rounded-3 ">
+              <div class="member-item fade show col-4 position-relative w-100 ">
+                <img class="w-100 member-img " src="./imgs/1.jpg" alt="">
+                <div class="teamMember-div-descp position-absolute">
+                <div class="icons d-flex p-3 text-white">
+                  <div
+                    class="social-icons-team mx-1 bg-black p-2 d-inline-block rounded-circle border-light d-flex justify-content-center align-items-center"
+                  >
+                    <i class="fa-brands fa-twitter"></i>
+                  </div>
+                  <div
+                    class="social-icons-team mx-1 bg-black p-2 d-inline-block rounded-circle border-light d-flex justify-content-center align-items-center"
+                  >
+                    <i class="fa-brands fa-pinterest"></i>
+                  </div>
+                  <div
+                  class="social-icons-team mx-1 bg-black p-2 d-inline-block rounded-circle border-light d-flex justify-content-center align-items-center"
+                >
+                  <i class="fa-brands fa-facebook-f"></i>
+                  </div>
+                  <div
+                  class="social-icons-team mx-1 bg-black p-2 d-inline-block rounded-circle border-light d-flex justify-content-center align-items-center"
+                >
+                <a class="team-icon-link text-white text-decoration-none" target="_blank" href="https://www.linkedin.com/in/mostafa-badr-610b64208/">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+                  </div>
+                </div>
+                </div>
+              </div>
+              <div class="member-title-div py-2 px-3 text-center white-text">
+                <h4>John Doe</h2>
+                <h4>FRONT-END DEVELOPER</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-12">
+            <div class="member-main-div  bg-secondary   p-0 rounded-3">
+              <div class="member-item fade show col-4 position-relative w-100 ">
+                <img class="w-100 member-img " src="./imgs/2.jpg" alt="">
+                <div class="teamMember-div-descp position-absolute">
+                  <div class="icons d-flex p-3 text-white">
+                    <div
+                      class="social-icons-team mx-1 bg-black p-2 d-inline-block rounded-circle border-light d-flex justify-content-center align-items-center"
+                    >
+                      <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div
+                      class="social-icons-team mx-1 bg-black p-2 d-inline-block rounded-circle border-light d-flex justify-content-center align-items-center"
+                    >
+                      <i class="fa-brands fa-pinterest"></i>
+                    </div>
+                    <div
+                    class="social-icons-team mx-1 bg-black p-2 d-inline-block rounded-circle border-light d-flex justify-content-center align-items-center"
+                  >
+                    <i class="fa-brands fa-facebook-f"></i>
+                    </div>
+                    <div
+                    class="social-icons-team mx-1 bg-black p-2 d-inline-block rounded-circle border-light d-flex justify-content-center align-items-center"
+                  >
+                  <a class="team-icon-link text-white text-decoration-none" target="_blank" href="https://www.linkedin.com/in/mostafa-badr-610b64208/">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                    </div>
+                  </div>
+                  </div>
+              </div>
+              <div class="member-title-div py-2 px-3 text-center white-text">
+                <h4>Dave Wood
+                </h2>
+                <h4>BACK-END DEVELOPER
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-12">
+            <div class="member-main-div  bg-secondary   p-0 rounded-3">
+              <div class="member-item fade show col-4 position-relative w-100 ">
+                <img class="w-100 member-img " src="./imgs/1.jpg" alt="">
+                <div class="teamMember-div-descp position-absolute ">
+                  <div class="icons d-flex p-3 text-white">
+                    <div
+                      class="social-icons-team mx-1 bg-black p-2 d-inline-block rounded-circle border-light d-flex justify-content-center align-items-center"
+                    >
+                      <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div
+                      class="social-icons-team mx-1 bg-black p-2 d-inline-block rounded-circle border-light d-flex justify-content-center align-items-center"
+                    >
+                      <i class="fa-brands fa-pinterest"></i>
+                    </div>
+                    <div
+                    class="social-icons-team mx-1 bg-black p-2 d-inline-block rounded-circle border-light d-flex justify-content-center align-items-center"
+                  >
+                    <i class="fa-brands fa-facebook-f"></i>
+                    </div>
+                    <div
+                    class="social-icons-team mx-1 bg-black p-2 d-inline-block rounded-circle border-light d-flex justify-content-center align-items-center"
+                  >
+                  <a class="team-icon-link text-white text-decoration-none" target="_blank" href="https://www.linkedin.com/in/mostafa-badr-610b64208/">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                    </div>
+                  </div>
+                  </div>
+              </div>
+              <div class="member-title-div py-2 px-3 text-center white-text">
+                <h4>Claire Chedd
+                </h2>
+                <h4>BACK-END DEVELOPER
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</main>
+    </section>
+    <!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Contact Us >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+    <section id="contact" class="white-bkgrnd pb-5 ">
+      <main class="main-bkgrnd-color mt-5 py-5 mb-2">
+        <div class="container">
+          <div class="text-center  d-flex flex-column align-items-center">
+            <h2 class="fw-bolder headline-sentence  ">Contact Us<span class="fs-1">.</span></h2>
+            <div class="services-line "></div>
+          </div>
+          <!------------------------------ Contact Cards ---------------------------- -->
+          <div
+            class="contact-cards d-flex flex-wrap justify-content-between w-100 flex-md-row flex-sm-column align-items-sm-center  "
+          >
+            <figure
+              class="contact-card pt-5 pb-4 container-bkgrnd mb-4 text-center  d-flex flex-column align-items-center"
+            >
+              <div
+                class="contact-outer-line mb-4 rounded-circle d-flex align-items-center justify-content-center"
+              >
+                <div
+                  class="contat-card-icon-top container-bkgrnd text-center rounded-circle d-flex align-items-center justify-content-center"
+                >
+                <i class="contact-icons fa fa-location-arrow fs-4" aria-hidden="true"></i>
+                </div>
+              </div>
+              <h5 class="fw-bold">Address</h4>
+              <figcaption class="card-body">
+                <p class="card-text p-2">
+                  Cairo - Egypt
+                </p>
+              </figcaption>
+            </figure>
+            <figure
+              class="contact-card pt-5 pb-4 container-bkgrnd mb-4 text-center  d-flex flex-column align-items-center"
+            >
+            <a class="text-dark text-decoration-none" href="mailto:mostafa.badr222@yahoo.com?subject=Mail from the dark portfolio&body=Hello, ">
+              <div
+                class="contact-outer-line mb-4 rounded-circle d-flex align-items-center justify-content-center"
+              >
+                <div
+                  class="contat-card-icon-top container-bkgrnd text-center rounded-circle d-flex align-items-center justify-content-center"
+                >
+                
+                <i class="contact-icons fa fa-envelope fs-4" aria-hidden="true"></i>
+                </div>
+              </div>
+            </a>
+              <h5 class="fw-bold">Email</h4>
+              <figcaption class="card-body">
+                <p class="card-text p-2">
+                  Mostafa.badr222@yahoo.com
+                </p>
+              </figcaption>
+            </figure>
+            <figure
+              class="contact-card pt-5 pb-4 container-bkgrnd mb-4 text-center  d-flex flex-column align-items-center"
+            >
+            <a class="text-dark text-decoration-none" href="tel:201122296612">
+              <div
+                class="contact-outer-line mb-4 rounded-circle d-flex align-items-center justify-content-center"
+              >
+                <div
+                  class="contat-card-icon-top container-bkgrnd text-center rounded-circle d-flex align-items-center justify-content-center"
+                >
+                <i class="contact-icons fa fa-phone fs-4" aria-hidden="true"></i>
+                </div>
+              </div>
+            </a>
+              <h5 class="fw-bold">Phone</h4>
+              <figcaption class="card-body">
+                <p class="card-text p-2">
+                  +20 01122296612
+                </p>
+              </figcaption>
+            </figure>
+          </div>
+          <!------------------------------ Form ---------------------------- -->
+          <div class="form-div container" >
+            <div class="row gx-4 gy-3">
+              <div class="col-lg-6  col-sm-12"><input class="form-control bg-body-secondary " placeholder="Name"  type="text">
+              </div>
+              <div class="col-lg-6 col-sm-12"><input class="form-control bg-body-secondary " placeholder="Email"  type="text">
+              </div>
+              <div class="mb-2 col-12 ">
+                <textarea class="form-control bg-body-secondary" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+              </div>
+              <div><button class="btn btn-dark ">Submit</button>
+              </div>
+            </div>
+          </div>
+      </main>
+    </section>
+    <!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Footer >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+    <section class="pt-4 pb-3 text-secondary" id="footer">
+    <p>Copy Right 2018 © By Daniels All Rights Reserved</p>
+    </section>
+    <!------------------------------ JS FILES---------------------------- -->
+
+    <script src="./JS-Bootstrap-Fontawesome/all.min.js"></script>
+    <script src="./JS-Bootstrap-Fontawesome/bootstrap.min.js"></script>
+    <script src="./JS/index.js"></script>
+  </body>
+</html>

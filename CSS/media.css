@@ -1,0 +1,62 @@
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Media 1 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+@media screen and (max-width: 1000px) {
+  /*............................. Services ..............................*/
+  .service-card,
+  .card {
+    width: 100% !important;
+  }
+  .card {
+    margin-inline: 0 !important;
+  }
+  .nav-item:after {
+    height: 0% !important;
+  }
+  /*.......................... Parts of full name guiding msgs for the user ...................*/
+
+  /*................................. press on input > show check msgs ....................... */
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Media 2 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+@media screen and (max-width: 600px) {
+  /*............................. About me ..............................*/
+  .contact-cards,
+  .statistics-main {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center;
+  }
+  .animation-title {
+    /* width: fit-content; */
+    animation: change-width 8s 1s infinite;
+    overflow: hidden;
+    font-size: 2rem !important;
+    font-weight: 400 !important;
+  }
+  .IAm-span {
+    font-size: 2rem !important;
+  }
+  .vertical-header-line-span {
+    font-size: 2.5rem !important;
+    font-weight: 100 !important;
+    padding-bottom: 20px !important;
+  }
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Media 3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+@media screen and (max-width: 400px) {
+  /*............................. About me ..............................*/
+  .about-btns-div {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 10px;
+  }
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Media 3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+@media screen and (max-width: 290px) {
+  /* --------------------------- Welcome page logout button --------------------------------------- */
+  /* -----------------------------------Input Signup page--------------------------------------- */
+  /*................................smart login system h1 Signup page .......................................*/
+  /*.................................. Signup Area .....................................*/
+}
